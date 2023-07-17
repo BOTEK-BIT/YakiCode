@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $comment = $_POST["comment"];
 
   // Configurar los detalles del correo electrónico
-  $to = "21307019@utcgg.edu.mx"; // Cambia esta dirección por la que deseas recibir el correo
+  $to = 21307019@utcgg.edu.mx; // Cambia esta dirección por la que deseas recibir el correo
   $from = $email;
   $headers = "From: $from";
   $message = "Nombre: $name\nTeléfono: $phone\nCorreo: $email\nAsunto: $subject\nComentarios: $comment";
